@@ -8,7 +8,7 @@
 
 
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import todoReducer from '../reducers/reducer';
+import todoReducer from '../reducers/todoSlice';
 import previewSlice from '../reducers/previewSlice';
 
 const rootReducer = combineReducers({

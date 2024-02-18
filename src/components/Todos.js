@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeTodo } from '../reducers/reducer';
+import { removeTodo } from '../reducers/todoSlice';
 import { MdDelete } from "react-icons/md";
 
 function Todos() {
